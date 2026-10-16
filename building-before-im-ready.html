@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b1728" />
+    <meta
+      name="description"
+      content="Why starting small, experimenting and learning through mistakes matter more than waiting for perfection."
+    />
+    <title>Building Before I'm Ready | NM Journal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="article.css" />
+    <script src="article.js" defer></script>
+  </head>
+  <body>
+    <div class="reading-progress" aria-hidden="true">
+      <span id="progressBar"></span>
+    </div>
+    
+    </header-->
+    <header class="navbar">
+      <div class="logo-area">
+        <div class="logo">
+          <a href="building-before-im-ready.html" aria-label="Home">
+            <span>N</span><span>M</span>
+          </a>
+        </div>
+        <div class="logo-divider"></div>
+        <div class="name">Journal</div>
+      </div>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html#home">Home</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#skills">Skills</a>
+        <a href="index.html#projects">Projects</a>
+        <a href="index.html#journey">Journey</a>
+        <div class="nav-dropdown" id="blogNavDropdown">
+          <a
+            href="#blog"
+            class="nav-dropdown-trigger"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Blog <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+          </a>
+          <div class="nav-dropdown-menu" aria-label="Blog articles">
+            <a href="civil-engineering-lessons.html"
+              >What Civil Engineering Is Teaching Me</a
+            >
+            <a href="learning-to-code.html"
+              >Why I'm Learning to Code as an Engineer</a
+            >
+            <a href="building-before-im-ready.html"
+              >Building Before I'm Ready</a
+            >
+          </div>
+        </div>
+        <a href="index.html#contacts">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button
+          class="theme-toggle"
+          id="themeToggle"
+          type="button"
+          aria-label="Switch to dark mode"
+          title="Switch to dark mode"
+        >
+          <i class="fa-solid fa-moon" aria-hidden="true"></i>
+        </button>
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          type="button"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+          aria-controls="navLinks"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="article-hero building-hero">
+        <div class="hero-grid"></div>
+        <div class="hero-content">
+          <a class="back-link" href="index.html#blog">◄ Back to the journal</a>
+          <div class="eyebrow">
+            <span class="eyebrow-dot"></span> PERSONAL
+            <span class="eyebrow-separator">/</span> 3 MIN READ
+          </div>
+          <h1>Building <em>Before I'm Ready</em></h1>
+          <p class="hero-subtitle">
+            Why starting small, experimenting and learning through mistakes
+            matter more than waiting for perfection.
+          </p>
+          <div class="author-row">
+            <a
+              class="avatar substack-avatar"
+              href="https://substack.com/@asterisk58"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Read my articles on Substack"
+              title="Find me on Substack"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <path
+                  fill="currentColor"
+                  d="M448 512L224 386.4 0 512 0 230.7 448 230.7 448 512zm0-336.2l-448 0 0-60.5 448 0 0 60.5zM448 0L448 60.5 0 60.5 0 0 448 0z"
+                />
+              </svg>
+            </a>
+            <div>
+              <strong><i>Newton Wanyoike</i></strong
+              ><small>@asterisk58</small>
+            </div>
+            <span class="hero-date">A field note from the journey</span>
+          </div>
+        </div>
+        <div class="hero-stamp" aria-hidden="true">
+          <span>LEARNING THROUGH</span><strong>PRACTICE</strong><i>03 / 03</i>
+        </div>
+      </section>
+
+      <div class="article-layout">
+        <aside class="article-aside">
+          <span class="aside-label">IN THIS ARTICLE</span>
+          <a href="#ready">The illusion of ready</a
+          ><a href="#small">Small beginnings</a
+          ><a href="#mistakes">Learning through mistakes</a
+          ><a href="#progress">Invisible progress</a
+          ><a href="#repeat">Build, learn, repeat</a>
+          <div class="aside-note">
+            <span class="note-icon"><i class="fa-solid fa-flag"></i></span>
+            <p>Let preparation lead to practice.</p>
+          </div>
+        </aside>
+
+        <article class="article-body">
+          <p class="article-lead">
+            There's a certain kind of hesitation that comes from wanting to do
+            something well. You picture the perfect finished result, think about
+            the skills you'll need, and start focusing on everything you still
+            don't understand. This perfectionism makes you feel like you're
+            never quite ready.
+          </p>
+
+          <p>
+            It's easy to tell yourself, "I just need to finish one more course,
+            watch another tutorial, read one more textbook, or master one more
+            framework before I start." Before you know it, preparing to begin
+            becomes a project of its own.
+          </p>
+
+          <p>
+            You keep saying that you need a little more preparation. And
+            somehow, the starting point keeps moving further away.
+          </p>
+
+          <p>
+            I've come to realise that waiting for the perfect moment can be
+            procrastination in disguise. Sometimes, it's just a way of avoiding
+            the mistakes, challenges, and experiences that would actually help
+            me grow.
+          </p>
+
+          <h2 id="ready"><span>01</span> The illusion of being ready</h2>
+
+          <p>
+            When I started exploring web development, there was a lot I didn't
+            know. HTML, CSS, and JavaScript kept introducing me to new concepts,
+            and building a complete website felt like a much bigger task than
+            simply following individual lessons.
+          </p>
+
+          <p>
+            I could have waited until I felt confident in every area before
+            starting my first project. But I've learnt that some things only
+            start making sense when you actually work on them. Building my first
+            website exposed me to problems that tutorials hadn't prepared me
+            for. I had to deal with unexpected errors, spend evenings debugging,
+            and sometimes rebuild from scratch features that refused to work as
+            expected.
+          </p>
+
+          <p>
+            Trust me it wasn't always smooth, but that's where a lot of the real
+            learning happened.
+          </p>
+
+          <blockquote>
+            “Sometimes, readiness is something you develop by starting.”
+          </blockquote>
+
+          <h2 id="small"><span>02</span> Small beginnings still count</h2>
+
+          <p>
+            It's easy to look at a small project and feel like it isn't much. A
+            basic website. A simple program. A few pages of notes. A new habit
+            you manage to practise for just ten minutes. None of these might
+            seem impressive on their own.
+          </p>
+
+          <p>
+            But small beginnings give you room to practise. They turn ideas
+            you've only read about into things you can actually work with, test,
+            and improve. My personal portfolio, for example, gave me a chance to
+            practise page structure, colours, layouts, navigation, and how to
+            communicate ideas through design.
+          </p>
+
+          <p>
+            Was it perfect? Not at all. But it didn't need to be. I learnt a lot
+            by simply building it, seeing what worked, and figuring out what
+            needed to change.
+          </p>
+
+          <p>
+            That's something I'm learning to appreciate: a project doesn't have
+            to be impressive to everyone else to be valuable to me.
+          </p>
+
+          <h2 id="mistakes">
+            <span>03</span> Mistakes are part of the process
+          </h2>
+
+          <p>
+            Mistakes give you feedback, sometimes immediately. When I get a
+            calculation wrong in an assignment, during coursework, or while
+            studying on my own, I try not to get too discouraged. Instead, I
+            look at what went wrong. Was there a concept I hadn't understood
+            properly? Did I skip a step or make an incorrect assumption?
+          </p>
+
+          <p>
+            These are the kinds of questions that help me spot gaps in my
+            understanding. Sometimes, reading through a solution isn't enough. I
+            need to attempt the problem myself, get something wrong, and work
+            through the reasoning to understand where I went off track.
+          </p>
+
+          <p>
+            The same applies when I'm experimenting with code. A broken layout
+            or a program that throws an error can be frustrating, but it also
+            gives me something specific to investigate. I can check what
+            happened, trace the problem to its cause, and try a better approach.
+          </p>
+
+          <p>
+            Of course, not every mistake is one you should make just to learn.
+            Experimenting with a personal website is one thing; making
+            unverified decisions about the structural safety of a building is
+            another. Some mistakes are part of learning, while others need to be
+            prevented through proper training, checking, and professional
+            guidance.
+          </p>
+
+          <p>
+            The point isn't to stop worrying about mistakes altogether. It's to
+            learn from the ones you can safely make and recognise when a
+            situation calls for more knowledge, care, or supervision.
+          </p>
+
+          <h2 id="progress"><span>04</span> Progress is not always visible</h2>
+
+          <p>
+            It's easy to compare your first attempts with someone else's
+            finished work. You see an impressive engineering project, a
+            beautifully designed website, or someone who seems to know exactly
+            what they're doing. What you don't always see are the years of
+            practice, the failed attempts, and all the revisions that came
+            before that final result.
+          </p>
+
+          <p>
+            I'm trying to remind myself that I don't have to compete with
+            someone else's finished chapter while I'm still writing my first few
+            pages. We're at different stages, learning different things, and
+            working with different experiences. My job is to keep getting better
+            at what I'm doing, not to rush just because someone else seems
+            further ahead.
+          </p>
+
+          <p>
+            And progress doesn't always look the way you expect. Sometimes, it's
+            finally completing a project you've been putting off. Sometimes,
+            it's understanding a concept that confused you for days. Other
+            times, it's recognising a weakness and deciding to work on it
+            instead of pretending it isn't there.
+          </p>
+
+          <p>
+            These moments might not look like much from the outside, but they're
+            still progress. Not every step forward needs an audience.
+          </p>
+
+          <h2 id="repeat"><span>05</span> Build, learn, improve, repeat</h2>
+
+          <p>
+            I want to become a capable engineer, develop useful technical
+            skills, build meaningful projects, and eventually create something
+            of my own. Those are big ambitions, and I know they won't be
+            achieved through motivation alone. They'll take practice, patience,
+            and the discipline to keep learning even when things feel slow or
+            progress isn't obvious.
+          </p>
+
+          <p>
+            I've also realised that completing a basic, imperfect version of a
+            project can teach me things that months of passive studying might
+            not. It gives me something real to work with, a clearer idea of what
+            I understand, and a starting point for improvement. It also gives me
+            the confidence to take on the next challenge.
+          </p>
+
+          <p>
+            So I'm learning to give myself permission to be a beginner. To build
+            things that still need work. To ask questions when something doesn't
+            make sense. To make mistakes, take responsibility for them, and come
+            back with a better approach.
+          </p>
+
+          <p>
+            That doesn't mean rushing into things without thinking or pretending
+            preparation doesn't matter. Preparation is important. But there's a
+            difference between preparing yourself to begin and endlessly
+            preparing because you're afraid to start.
+          </p>
+
+          <p>
+            Sometimes, you have to take what you know, work with what you have,
+            and learn the rest along the way. You won't have every answer at the
+            beginning, and that's okay. The important thing is to keep moving,
+            stay curious, and be willing to improve.
+          </p>
+
+          <div class="article-ending">
+            <span class="ending-line"></span>
+            <span>START WHERE YOU ARE.</span>
+            <span class="ending-line"></span>
+          </div>
+
+          <p class="closing-line">
+            You don't have to feel ready to begin. Sometimes, beginning is how
+            you become ready.
+          </p>
+
+          <div class="article-tags">
+            <span>Filed under</span>
+            <a href="#ready">Personal Growth</a>
+            <a href="#small">Creativity</a>
+            <a href="#repeat">Learning</a>
+          </div>
+
+          <div class="share-row">
+            <span>Found this interesting?</span>
+            <button class="text-button" data-share>
+              Share article
+              <i class="fa-solid fa-share-square"></i>
+            </button>
+            <button class="text-button" data-copy>
+              Copy link
+              <i class="fa-regular fa-copy"></i>
+            </button>
+          </div>
+        </article>
+      </div>
+
+      <section class="next-reads">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">KEEP EXPLORING</span>
+            <h2>More from the journal</h2>
+          </div>
+        </div>
+        <div class="related-grid">
+          <a class="related-card lessons" href="civil-engineering-lessons.html"
+            ><span class="related-number">01</span
+            ><span class="related-category">LEARNING · 5 MIN</span>
+            <h3>What Civil Engineering Is Teaching Me</h3>
+            <p>
+              Lesson I'm discovering beyond textbooks, equations and classroom
+              assignments.
+            </p>
+            <span class="related-link">Read previous ↗</span></a
+          >
+          <a class="related-card code" href="learning-to-code.html"
+            ><span class="related-number">02</span
+            ><span class="related-category">LEARNING · 4 MIN</span>
+            <h3>Why I'm Learning to Code as an Engineer</h3>
+            <p>
+              Exploring how programming and engineering can complement each
+              other
+            </p>
+            <span class="related-link">Read next ↗</span></a
+          >
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <a class="footer-brand" href="#top">NM</a>
+      <p>Curiosity in motion.</p>
+      <small>© <span data-year></span> NM Journal</small>
+    </footer>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="theme.js"></script>
+  </body>
+</html>
